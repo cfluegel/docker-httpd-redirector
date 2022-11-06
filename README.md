@@ -10,5 +10,5 @@ variable. The redirect is configured to be a temporary redirect. Just in case th
 
 # Example
 ```bash
-docker run -it --rm -e DESTINATION='https://www.heise.de/' -p 8080:80 cfluegel/redirector:latest
+docker run -it --rm -e DESTINATION='https://www.heise.de/' -p 8080:80 cfluegel/http-redirector:latest
 ```
